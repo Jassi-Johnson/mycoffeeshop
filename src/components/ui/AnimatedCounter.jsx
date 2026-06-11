@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { useInView, useSpring, useTransform, motion } from "framer-motion"
+import { useInView, useSpring, useTransform, motion } from "framer-motion";
 
 export default function AnimatedCounter({ target, duration = 2, suffix = "", prefix = "" }) {
     const ref = useRef(null);
